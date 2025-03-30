@@ -70,10 +70,10 @@ const students = [
     }
 ]
 
-// const filteredStudents = students.filter((student)=>{
-//     return student.age>=18
-// })
-// console.log(filteredStudents);
+const filteredStudents = students.filter((student)=>{
+    return student.age>=18
+})
+console.log(filteredStudents);
 
 // const adultStudentsName = filteredStudents.map((student)=>{
 //     return student.name;
